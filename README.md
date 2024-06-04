@@ -2,10 +2,6 @@
 Simply PHP Role Based Access Control to content by Bitwise Operators
 <h2>Usage</h2>
 In database you have to have column <strong>Roles</strong> , add a parameter <code>bindec($row['roles'] >> 0)) & 1) == 1 </code> to your user login checker.  Then assign for example to <code>$_SESSION['roles'] = bindec($row['roles']); </code>
-<br /><br />
-
-![sql](https://github.com/ufo1990/Public/assets/85555971/646ad16b-ccef-4420-9477-8256562c1ffa)            
-
 
 <h3>Permissions</h3>
 <strong>0 0 0 0 0 0 1</strong> - Access system <br />
